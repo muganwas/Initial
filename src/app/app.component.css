@@ -1,0 +1,17 @@
+nav {
+  position: relative;
+}
+nav a {
+  float: left;
+  color: #fff;
+  padding: 5px;
+  background: #5864cc;
+  text-decoration: none;
+  border-radius: 2px;
+  margin: 2px;
+}
+nav:after{
+  display: block;
+  content: " ";
+  clear: both;
+}

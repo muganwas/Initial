@@ -21,11 +21,12 @@ export class HeroesComponent implements OnInit {
     subscribe( (heroes) => { this.heroes = heroes; } );
   }
 
-  onSelect(hero: Hero) {
+  /**not needed anymore
+   *onSelect(hero: Hero) {
     this.messageService.clear();
     this.messageService.add('HeroService: ' + hero.name + ' Selected');
     this.selectedHero = hero;
-  }
+  }*/
 
   ngOnInit() {
     this.getHeroes();

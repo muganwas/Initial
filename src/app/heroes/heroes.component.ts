@@ -1,6 +1,5 @@
 import { Component, OnInit, NgModule } from '@angular/core';
 import { Hero } from '../../hero';
-import { Heroes } from '../mock-heroes';
 import { HeroService } from '../hero.service';
 import { MessageService } from '../message.service';
 
